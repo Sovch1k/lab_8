@@ -10,5 +10,12 @@ main() {
 	scanf_s("%d", &n1);
 	printf("n2 = ");
 	scanf_s("%d", &n2);
-	printf("Сумма = %d", n1 + n2);
+	
+	printf("Сумма = %d\n", n1 + n2);
+	if (n1 > n2) {
+		printf("Разность = %d\n", n1 - n2);
+	}
+	else {
+		printf("Разность = %d\n", n2 - n1);
+	}
 }
